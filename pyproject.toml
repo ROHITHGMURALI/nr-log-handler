@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,7 +7,7 @@ name = "nr-log-handler"
 version = "0.1.0"
 description = "Send logs to New Relic via their Log REST API"
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
 authors = [{ name = "Rohith G Murali", email = "rohith.rgm.murali@gmail.com" }]
 requires-python = ">=3.10"
 dependencies = ["requests>=2.28"]
@@ -15,7 +15,6 @@ keywords = ["newrelic", "logging", "observability"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
