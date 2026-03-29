@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Send logs to New Relic via their Log REST API"
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "Your Name", email = "you@example.com" }]
+authors = [{ name = "Rohith G Murali", email = "rohith.rgm.murali@gmail.com" }]
 requires-python = ">=3.10"
 dependencies = ["requests>=2.28"]
 keywords = ["newrelic", "logging", "observability"]
@@ -25,8 +25,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourname/newrelic-logger"
-Repository = "https://github.com/yourname/newrelic-logger"
+Homepage = "https://github.com/ROHITHGMURALI/nr-log-handler"
+Repository = "https://github.com/ROHITHGMURALI/nr-log-handler"
 
 [project.optional-dependencies]
 dev = ["pytest>=7.4", "pytest-mock>=3.11"]
