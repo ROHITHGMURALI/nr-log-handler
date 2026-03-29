@@ -89,6 +89,16 @@ import logging
 logging.getLogger("newrelic_logger").setLevel(logging.WARNING)
 ```
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for release history.
+
+### Latest: 0.1.1 (2026-03-29)
+
+- Fixed deprecated `license` table format in `pyproject.toml` (SPDX string)
+- Added `LICENSE` file (MIT)
+- Added GitHub Actions workflow for automated PyPI publishing
+
 ## License
 
 MIT
